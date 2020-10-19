@@ -1,0 +1,41 @@
+<header class="banner" role="banner">
+  <div class="wrapper">
+    <nav class="navbar" role="navigation" aria-label="main navigation" x-data="{ isOpen: false }" @click.away="isOpen = false" >
+      <a class="brand" href="/" aria-label="Navigate back to Home Page" title="Navigate back to Home Page">
+
+      </a>
+
+      <div class="header__buttons">
+        <a class="button primary contact_btn" href="tel:{{ site.contact.phoneInput }}" title="Call us with any questions you may have">{{ site.contact.phoneDisplay }}</a>
+        <button @click="isOpen = !isOpen" :class="{ 'isOpen': isOpen }" :aria-expanded="isOpen ? 'true' : 'false'" type="button" role="button" class="hamburger" aria-controls="menu-container" aria-haspopup="true" aria-label="toggle main menu visibility">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+
+      <div class="menu-container" x-show.transition.opacity="isOpen" @keydown.escape.window="isOpen = false" :class="{ 'show': isOpen, 'hidden': !isOpen }">
+          {% set navPages = collections.all | eleventyNavigation %}
+          {% macro renderNavListItem(entry) -%}
+          <li>
+            <a {% if entry.url == page.url %} class="active"{% endif %} href="{{ entry.url | url }}" title="{{ entry.title }}">{{ entry.title }}</a>
+          {%- if entry.children.length -%}
+            <ul>
+              {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+            </ul>
+          {%- endif -%}
+          </li>
+          {%- endmacro %}
+          <ul class="nav">
+          {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+          <li>
+            <a class="nav_call" href="tel:{{ site.contact.phoneInput }}" title="Telephone AS Physiotherapy">
+              <span class="nav_call__title">Have a question?</span><br>
+              {{ site.contact.phoneDisplay }}
+            </a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+</header>

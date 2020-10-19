@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.asphysiotherapy.co.uk/sitemap.xml

@@ -1,0 +1,47 @@
+button,
+.button {
+  display: inline-block;
+  margin: 0;
+  padding-left: 36px;
+  padding-right: 36px;
+  border: none;
+  border-color: transparent;
+  border-radius: 100px;
+  color: $white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: $bold;
+  line-height: 43px;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+
+  appearance: none;
+
+  &:focus {
+    outline: 1px dashed $secondary;
+    outline-offset: 5px;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
+
+ }
+
+.primary {
+  background: $secondary;
+  color: $white;
+
+  &:hover,
+  &:focus {
+    background: $link-hover;
+    color: $white;
+  }
+
+}
+
+.fw-mobile {
+  width: 100%;
+  width: auto;
+}

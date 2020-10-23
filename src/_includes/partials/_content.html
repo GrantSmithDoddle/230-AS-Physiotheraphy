@@ -1,0 +1,18 @@
+<article aria-label="Introduction Image">
+  <div class="wrapper">
+    <div class="columns">
+      <div class="column flow__sm">
+        {% if image -%}
+        <picture class="image outer-16by6">
+          <img class="inner-16by6" src="{{ image.src }}" title="{{ image.title }}" alt="{{ image.alt }}" width=""
+            height="" loading="lazy">
+        </picture>
+        {% endif -%}
+        <h2>{{ title }}</h2>
+      </div>
+    </div>
+    <div class="columns col-2">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,69 @@
+.testimonial {
+  text-align: center;
+  margin-top: $size-scale-major;
+  .column {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+      &:first-of-type {
+        font-size: $size-scale-600;
+        font-weight: $light;
+        font-style: italic;
+        line-height: $leading-tight;
+      }
+    }
+  }
+}
+.contact {
+  margin-top: $size-scale-major;
+  margin-bottom: $size-scale-major;
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    justify-items: center;
+
+    @include respond-to('medium'){
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .accred-img {
+      padding: 18px;
+    }
+  }
+}
+footer {
+  background-color: $secondary-shade;
+  color: $white;
+  font-size: $size-scale-300;
+  font-weight: $light;
+  padding-top: $size-scale-300;
+  padding-bottom: $size-scale-300;
+  text-align: center;
+  @include respond-to('medium'){
+    text-align: left;
+  }
+  a {
+    color: $white !important;
+    text-decoration: none !important;
+    &:hover {
+      color: $primary-glare;
+      text-decoration: underline;
+    }
+  }
+  .columns {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    .column {
+      &:last-of-type {
+        margin-top: $size-scale-300;
+        @include respond-to('small'){
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

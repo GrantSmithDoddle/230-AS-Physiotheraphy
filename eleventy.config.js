@@ -1,8 +1,5 @@
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const htmlmin = require("html-minifier");
-const CleanCSS = require("clean-css");
-const { minify } = require("terser");
 
 module.exports = eleventyConfig => {
 
@@ -14,40 +11,6 @@ module.exports = eleventyConfig => {
 
     // Add a HTML timestamp formatter filter to Nunjucks
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"));
-
-    // Inline CSS into Header
-    eleventyConfig.addFilter("cssmin", function(code) {
-      return new CleanCSS({}).minify(code).styles;
-    });
-
-    // Inline JS into Footer
-    eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
-      code,
-      callback
-    ) {
-      try {
-        const minified = await minify(code);
-        callback(null, minified.code);
-      } catch (err) {
-        console.error("Terser error: ", err);
-        // Fail gracefully.
-        callback(null, code);
-      }
-    });
-
-    // Minify our HTML - During development this can be quite annoying.
-    eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-      if ( outputPath.endsWith(".html") )
-      {
-          let minified = htmlmin.minify(content, {
-              useShortDoctype: true,
-              removeComments: true,
-              collapseWhitespace: true
-          })
-          return minified
-      }
-      return content
-    });
 
     // Generate Sitemap
     eleventyConfig.addPlugin(sitemap, {
@@ -62,6 +25,7 @@ module.exports = eleventyConfig => {
     // Include our static assets
     eleventyConfig.addPassthroughCopy({'src/_includes/resources/img': 'assets/img'});
     eleventyConfig.addPassthroughCopy({'src/_includes/resources/svg': 'assets/svg'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/resources/fonts': 'fonts'});
     eleventyConfig.addPassthroughCopy('src/robots.txt');
 
     return {
@@ -78,5 +42,4 @@ module.exports = eleventyConfig => {
             data: '_data'
         }
     }
-
 }

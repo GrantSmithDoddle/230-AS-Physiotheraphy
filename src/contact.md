@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: Contact
   title: Contact
-layout: 'layouts/home.html'
+layout: 'layouts/col-2.html'
 title: 'Contact'
 metaDesc: 'Replace me'
 ---

@@ -25,6 +25,7 @@ h2,
 h3,
 .h3 {
   font-weight: $normal;
+  line-height: $leading-tight;
   @include fluid-font(3vw, 1.620rem, 1.944rem, 28.51px);
 }
 
@@ -61,4 +62,21 @@ h4,
     margin-left: auto;
     margin-right: auto;
   }
+}
+.underline-right {
+  &:after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 2px;
+    background-color: $secondary;
+    margin-bottom: $size-scale-500;
+    margin-top: $size-scale-300;
+    margin-left: auto;
+  }
+}
+
+.mini_bio {
+  font-weight: $light;
+  font-size: 16px;
 }

@@ -9,6 +9,7 @@ Thumbs.db
 .env
 .cache
 package-lock.json
+.DS_Store
 
 # Node modules and output
 node_modules

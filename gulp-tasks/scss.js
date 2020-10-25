@@ -4,24 +4,20 @@ const sass = require('gulp-sass');
 const sourceMaps = require('gulp-sourcemaps');
 const autopreFixer = require('autoprefixer');
 const cssNano = require('cssnano');
-
-// File Path Variables
-const files = {
-  scssInput: 'src/_includes/resources/scss/*.scss',
-  scssOutput: 'dist/assets/css',
-}
+const rename = require('gulp-rename');
 
 function styles() {
   var plugins = [
     autopreFixer(),
     cssNano()
   ];
-  return src( files.scssInput )
+  return src( gulp_scssInput )
     .pipe( sourceMaps.init() )
     .pipe( sass() )
     .pipe( postCss(plugins) )
     .pipe( sourceMaps.write('.') )
-    .pipe( dest(files.scssOutput) )
+    .pipe(rename({ extname: '.min.css' }))
+    .pipe( dest( gulp_scssOutput ))
 }
 
 module.exports = styles;

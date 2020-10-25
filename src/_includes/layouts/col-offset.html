@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" -%}
+
+{% set pageHeaderTitle = title -%}
+
+{% block content -%}
+<article aria-label="Introduction Image">
+  <div class="wrapper flow">
+    <div class="columns">
+      <div class="column">
+        <h2 class="underline-left">{{ title }}</h2>
+      </div>
+    </div>
+    <div class="columns col-offset">
+      <div class="column flow__sm">
+        {{ content | safe }}
+      </div>
+      <div class="column flow__sm">
+        {% if image -%}
+        <picture class="image outer-1by1">
+          <img class="lazyload blur-up inner-1by1 cover" data-src="{{ image.src }}" title="{{ image.title }}"
+            alt="{{ image.alt }}" width="350" height="350">
+        </picture>
+        {% endif -%}
+        <p class="mini_bio">{{ miniBio.line1 }}</p>
+        <p class="mini_bio">{{ miniBio.line2 }}</p>
+      </div>
+    </div>
+  </div>
+</article>
+{% endblock -%}

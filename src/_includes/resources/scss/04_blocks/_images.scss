@@ -7,7 +7,15 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+}
+
+.cover {
   object-fit: cover;
+  object-position: center;
+}
+
+.contain {
+  object-fit: contain;
   object-position: center;
 }
 
@@ -100,4 +108,22 @@ img {
     bottom: 0;
     left: 0;
   }
+}
+
+/* purgecss start ignore */
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 400ms, -webkit-filter 400ms;
+}
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/* purgecss end ignore */
+
+.oversized {
+  margin-right: -$size-scale-500;
+  margin-left: -$size-scale-500;
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & npx gulp",
     "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx gulp watch && npx @11ty/eleventy --config=eleventy.config.js --serve",
-    "production": "NODE_ENV=production npx gulp && && ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
+    "production": "NODE_ENV=production npx gulp && ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +25,19 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
+    "gulp-better-rollup": "^4.0.1",
     "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.4.0",
-    "postcss": "^8.1.2"
+    "postcss": "^8.1.2",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   },
   "dependencies": {
     "@quasibit/eleventy-plugin-sitemap": "^2.0.2",

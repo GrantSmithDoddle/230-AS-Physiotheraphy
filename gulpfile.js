@@ -1,24 +1,29 @@
 const {parallel, series, watch} = require('gulp');
 
 // Proxy server
-const proxy = 'http://asphysiotherapy.local/';
+const proxy = 'http://website.local/';
+
+// Set Global Locations
+// JS Module
+global.gulp_jsInput = './src/_includes/resources/js/*.js';
+global.gulp_jsOutput = './dist/assets/js';
+// SCSS Module
+global.gulp_scssInput = './src/_includes/resources/scss/*.scss';
+global.gulp_scssOutput = './dist/assets/css';
+// Images Module
+global.gulp_imgInput = './src/_includes/resources/img/**/*';
+global.gulp_imgOutput = './dist/assets/img';
 
 // Pull in each task
 const styles = require('./gulp-tasks/scss.js');
 const scripts = require('./gulp-tasks/scripts.js');
 const images = require('./gulp-tasks/images.js');
 
-// File path variables
-const files = {
-  watchScss: 'src/_includes/resources/scss/**/*.scss',
-  watchJs: 'src/_includes/resources/js/**/*.js',
-  watchImg: 'src/_includes/resources/**/*'
-};
-
+// Watch Task
 function watcher() {
-  watch(files.watchScss, styles);
-  watch(files.watchJs, scripts);
-  watch(files.watchImg, images);
+  watch( gulp_scssInput, styles );
+  watch( gulp_jsInput, scripts );
+  watch( gulp_imgInput, images );
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parallel

@@ -2,7 +2,42 @@
 eleventyNavigation:
   key: Client Information
   title: Client Information
-layout: 'layouts/home.html'
+layout: 'layouts/col-offset.html'
+image:
+    src: '/assets/img/client.jpg'
+    alt: 'AS Physiotherapy Client Information'
+    title: 'AS Physiotherapy Client Information'
 title: 'Client Information'
-metaDesc: 'Replace me'
+metaDesc: 'Cheltenham based Sports Injury and Physiotherapy Clinic with a fully equipped rehabilitation gym.'
 ---
+**All new clients with have an initial examination/assessment and diagnosis of your problem.  An individual management plan will be agreed and formulated together.**
+
+**Appointment times/fees:**
+
+Physiotherapy:
+
+£45 initial (45 mins) and £35 follow up (30mins, treatment session).
+
+Sports Massage:
+
+£60 per hour, £35 per half hour
+
+**Methods of payment:**
+
+Cash, Cheque (payable to Angela Sells), or BACS (bank details on request).
+
+**Treatment:**
+
+This may consist of various techniques which will be explained and discussed with you, as will
+​expectations and time frames for your recovery. The main aim is to get you back to full fitness
+​as quickly as possible.
+
+### FAQs
+**What should you wear?**
+
+It is important to visualise the area in question. Loose fitting clothing is advisable and for lower limb problems shorts and bare feet is best. For neck, shoulder and arm problems vest tops are advisable, whilst lower back problems shorts or loose fitting trousers (elastic waists) are best.
+
+**Should you bring anything?**
+
+Please bring with you results of any investigations you have had, and details of any medications you are taking.
+If it is a lower limb problem and you are sporty please bring your trainers, and if you wear insoles please bring them.

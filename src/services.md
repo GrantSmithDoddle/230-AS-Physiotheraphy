@@ -2,9 +2,9 @@
 eleventyNavigation:
   key: Services
   title: Services
-layout: 'layouts/home.html'
+layout: 'layouts/col-2.html'
 title: 'Services'
-metaDesc: 'Replace me'
+metaDesc: 'Cheltenham Sports Injury and Physiotherapy Clinic with a wealth of experience, and fully equipped rehabilitation gym'
 testimonial: 'Ange has also always given me the confidence to ‘take the next steps’ with my rehab, and overcome the mental challenge you face when returning to sport.'
 citation: 'Nolli Waterman (England Womens Rugby)'
 ---

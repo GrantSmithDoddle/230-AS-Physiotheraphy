@@ -23,7 +23,11 @@
 }
 
 .col-offset {
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 1fr .5fr;
+}
+
+.col-offset-rev {
+  grid-template-columns: .5fr 1fr;
 }
 
 // Align content

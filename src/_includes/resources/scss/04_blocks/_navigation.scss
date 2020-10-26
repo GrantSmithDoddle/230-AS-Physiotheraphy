@@ -19,13 +19,14 @@ header {
       margin-top: $base-size;
       margin-bottom: $base-size;
       width: auto;
-      height: 79px;
+      height: 85px;
       text-decoration: none !important;
 
       grid-area: logo;
 
       img {
-        width: 69px;
+        width: 76px;
+        border-radius: 0;
       }
 
       h1 {

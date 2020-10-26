@@ -1,28 +1,35 @@
-<section class="contact">
+<section class="contact" aria-label="Contact AS Physiotherapy">
   <div class="wrapper">
     <div class="columns col-2">
       <div class="column">
-        <h4 class="underline-left">Accreditation's</h4>
+        <h4>Accreditation's</h4>
         <div class="logos">
-          <a class="accred-img" href="https://www.macpweb.org/" title="Visit Musculoskeletal Association of Chartered Physiotherapists" target="blank" rel="noopener">
-            <img src="/assets/img/MACP.jpg" height="90" width="90" alt="Musculoskeletal Association of Chartered Physiotherapists" title="Musculoskeletal Association of Chartered Physiotherapists">
+          <a class="accred-img" href="https://www.macpweb.org/"
+            title="Visit Musculoskeletal Association of Chartered Physiotherapists" target="blank" rel="noopener">
+            <img src="/assets/img/MACP.jpg" height="90" width="90"
+              alt="Musculoskeletal Association of Chartered Physiotherapists"
+              title="Musculoskeletal Association of Chartered Physiotherapists">
           </a>
-          <a class="accred-img" href="https://www.hcpc-uk.org/" title="Health & Care Professions Council" target="blank" rel="noopener">
-            <img src="/assets/img/HCPC.jpg" height="90" width="90" alt="Health & Care Professions Council" title="Health & Care Professions Council">
+          <a class="accred-img" href="https://www.hcpc-uk.org/" title="Health & Care Professions Council" target="blank"
+            rel="noopener">
+            <img src="/assets/img/HCPC.jpg" height="90" width="90" alt="Health & Care Professions Council"
+              title="Health & Care Professions Council">
           </a>
-          <a class="accred-img" href="https://www.csp.org.uk/" title="Chartered Society of Physiotherapy" target="blank" rel="noopener">
-            <img src="/assets/img/CSOP.jpg" height="90" width="90" alt="Chartered Society of Physiotherapy" title="Chartered Society of Physiotherapy">
+          <a class="accred-img" href="https://www.csp.org.uk/" title="Chartered Society of Physiotherapy" target="blank"
+            rel="noopener">
+            <img src="/assets/img/CSOP.jpg" height="90" width="90" alt="Chartered Society of Physiotherapy"
+              title="Chartered Society of Physiotherapy">
           </a>
-          <a class="accred-img" href="https://www.physiosinsport.org/" title="Physios in Sport" target="blank" rel="noopener">
-            <img src="/assets/img/physios-in-sport.jpg" height="90" width="90" alt="Physios in Sport" title="Physios in Sport">
+          <a class="accred-img" href="https://www.physiosinsport.org/" title="Physios in Sport" target="blank"
+            rel="noopener">
+            <img src="/assets/img/physios-in-sport.jpg" height="90" width="90" alt="Physios in Sport"
+              title="Physios in Sport">
           </a>
         </div>
       </div>
       <div class="column">
-        <h4 class="underline-left">Contact</h4>
-        <p>Book an appointment: <a href="https://www.my-physio.co.uk:8443/OnlineOptions/PageRenderer?si=TEG1201O1L3VB7G2VRMN96J4341IR54A1D433MB7" target="blank" rel="noopener" title="Book an appointment">Online Booking</a></p>
-        <p>Telephone:  <a href="tel:{{ site.contact.phoneInput }}" title="Telephone with enquires" target="blank" rel="noopener">{{ site.contact.phoneDisplay }}</a></p>
-        <p>Email: <a href="mailto:{{ site.contact.email }}" title="Email with enquires" target="blank" rel="noopener">{{ site.contact.email }}</a></p>
+        <h4>Contact</h4>
+        {% include "partials/_contact-details.html" -%}
       </div>
     </div>
   </div>

@@ -18,6 +18,10 @@
 .contact {
   margin-top: $size-scale-major;
   margin-bottom: $size-scale-major;
+
+  h4 {
+    margin-bottom: $size-scale-600;
+  }
   .logos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

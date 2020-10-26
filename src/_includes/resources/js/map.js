@@ -2,14 +2,14 @@
 
 if (!!document.getElementById("map")) {
   mapboxgl.accessToken =
-    "pk.eyJ1IjoiZ3JhbnR0cmFuc2l0aW9uIiwiYSI6ImNqaTM2Z2o0ZjF1anIza210b24zbnJoangifQ.rFncpsx-qOjBK0B0xqZ2-Q";
+    "pk.eyJ1IjoiYXNwaHlzaW90aGVyYXB5IiwiYSI6ImNrZ3Bib2J2aDAwcXcycm1yaWNrbHFndWUifQ.5CdzbZVGzmZWbmcOoXwh_g";
 
   /* Map: This represents the map on the page. */
   var map = new mapboxgl.Map({
     container: "map",
     style: "mapbox://styles/mapbox/light-v9",
     zoom: 13.0,
-    center: [-2.426695, 52.040595],
+    center: [-2.078750, 51.903540],
   });
 
   // disable map zoom when using scroll
@@ -37,7 +37,7 @@ if (!!document.getElementById("map")) {
                 type: "Feature",
                 geometry: {
                   type: "Point",
-                  coordinates: ["-2.426695", "52.040595"],
+                  coordinates: ["-2.078750", "51.903540"],
                 },
               },
             ],

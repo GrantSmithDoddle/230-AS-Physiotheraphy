@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & npx gulp",
-    "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx gulp watch && npx @11ty/eleventy --config=eleventy.config.js --serve",
-    "production": "NODE_ENV=production npx gulp && ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
+    "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx gulp && npx @11ty/eleventy --config=eleventy.config.js --serve",
+    "production": "NODE_ENV=production npx gulp production && ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",

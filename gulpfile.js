@@ -30,3 +30,8 @@ function watcher() {
 exports.default = series(
   parallel(styles, scripts, images), watcher
 );
+
+// Production task, build project without watching after process
+exports.production = series(
+  parallel(styles, scripts, images)
+);

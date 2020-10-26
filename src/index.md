@@ -35,7 +35,7 @@ Cheltenham and Gloucester based Angela Sells at AS Physiotherapy is committed to
 - Injury prevention
 - Acupuncture
 
-(See services page for a full list of treatments).
+[See services page for a full list of treatments](/testimonials "Read all our testimonials").
 
 Additionally, at AS Physiotherapy a fully equipped rehabilitation exercise facility is provided on site in managing your injury all under one roof.
 

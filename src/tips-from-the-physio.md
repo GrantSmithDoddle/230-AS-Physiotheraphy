@@ -2,6 +2,7 @@
 eleventyNavigation:
   key: Tips
   title: Tips from the Physio
+  order: 3
 layout: 'layouts/col-2.html'
 title: 'Tips from the Physio'
 metaDesc: 'How best to recover from long distance or marathon runs?'

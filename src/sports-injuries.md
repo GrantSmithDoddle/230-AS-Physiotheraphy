@@ -2,6 +2,7 @@
 eleventyNavigation:
   key: Sports-Injuries
   title: Sports Injuries
+  order: 4
 layout: 'layouts/col-offset.html'
 title: 'Sports Injuries'
 metaDesc: 'AS Physiotherapy provides a first class sports injury clinic based in both Cheltenham & Gloucester'

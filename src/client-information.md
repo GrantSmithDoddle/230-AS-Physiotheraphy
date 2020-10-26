@@ -2,6 +2,7 @@
 eleventyNavigation:
   key: Client Information
   title: Client Information
+  order: 8
 layout: 'layouts/col-offset.html'
 image:
     src: '/assets/img/client.jpg'

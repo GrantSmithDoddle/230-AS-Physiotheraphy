@@ -2,6 +2,7 @@
 eleventyNavigation:
   key: Services
   title: Services
+  order: 2
 layout: 'layouts/col-2.html'
 title: 'Services'
 metaDesc: 'Cheltenham Sports Injury and Physiotherapy Clinic with a wealth of experience, and fully equipped rehabilitation gym'

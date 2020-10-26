@@ -1,8 +1,4 @@
 ---
-eleventyNavigation:
-  key: Welcome
-  title: Welcome
-  order: 1
 layout: 'layouts/col-2.html'
 title: 'Angela Sells'
 metaDesc: 'Cheltenham Sports Injury and Physiotherapy Clinic committed to providing expert management of Sports Injuries and a variety of musculoskeletal conditions, such as back, shoulder and knee pain. Treatments include massage, manipulation, acupuncture and exercise rehabilitation'

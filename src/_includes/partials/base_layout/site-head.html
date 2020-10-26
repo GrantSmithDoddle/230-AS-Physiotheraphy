@@ -27,20 +27,13 @@
 
       <div class="menu-container" x-show.transition.opacity="isOpen" @keydown.escape.window="isOpen = false"
         :class="{ 'show': isOpen, 'hidden': !isOpen }">
-        {% set navPages = collections.all | eleventyNavigation %}
-        {% macro renderNavListItem(entry) -%}
-        <li>
-          <a {% if entry.url == page.url %} class="active" {% endif %} href="{{ entry.url | url }}"
-            title="{{ entry.title }}">{{ entry.title }}</a>
-          {%- if entry.children.length -%}
-          <ul>
-            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-          </ul>
-          {%- endif -%}
-        </li>
-        {%- endmacro %}
         <ul class="nav">
-          {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+          {% for item in navigation.items %}
+          <li class="nav__item">
+            <a class="nav__link" href="{{ item.url }}" title="{{ item.title }}"
+              {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.navText }}</a>
+          </li>
+          {% endfor %}
           <li>
             <a class="nav_call"
               href="https://www.my-physio.co.uk:8443/OnlineOptions/PageRenderer?si=TEG1201O1L3VB7G2VRMN96J4341IR54A1D433MB7"

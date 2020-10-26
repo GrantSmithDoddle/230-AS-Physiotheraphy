@@ -1,8 +1,4 @@
 ---
-eleventyNavigation:
-  key: About
-  title: About
-  order: 5
 layout: 'layouts/col-offset.html'
 title: 'About'
 metaDesc: 'Angela Sells: MSc Advanced Musculoskeletal and Manipulative Physiotherapy, BSc (Hons) Physiotherapy, PgDip Society of Orthopaedic Medicine, MCSP, MMACP, HCPC, ACPSEM'

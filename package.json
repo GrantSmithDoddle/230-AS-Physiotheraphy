@@ -16,7 +16,6 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-navigation": "^0.1.6",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^10.0.1",

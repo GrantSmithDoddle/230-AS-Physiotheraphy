@@ -1,10 +1,6 @@
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = eleventyConfig => {
-
-    // Navigation plugin
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"));

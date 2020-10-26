@@ -1,33 +1,33 @@
 {
-  "name":             "Angela Sells Physiotherapy and Sports Injury Clinic",
-  "url":              "https://asphysiotherapy.co.uk",
-  "authorName":       "Transition Creative Ltd",
-  "authorEmail":      "hello@transition-creative.co.uk",
+  "name": "Angela Sells Physiotherapy and Sports Injury Clinic",
+  "url": "https://asphysiotherapy.co.uk",
+  "authorName": "Transition Creative Ltd",
+  "authorEmail": "hello@transition-creative.co.uk",
   "company": {
-    "name":           "Angela Sells Physiotherapy and Sports Injury Clinic",
-    "tagline":        "Committed to providing expert management of Sports Injuries.",
-    "number":         "",
-    "data":           ""
+    "name": "Angela Sells Physiotherapy and Sports Injury Clinic",
+    "tagline": "Committed to providing expert management of Sports Injuries.",
+    "number": "",
+    "data": ""
   },
   "meta": {
-    "title":          "AS Physiotherapy",
-    "description":    "Cheltenham Sports Injury and Physiotherapy Clinic committed to providing expert management of Sports Injuries and a variety of musculoskeletal conditions, such as back, shoulder and knee pain. Treatments include massage, manipulation, acupuncture and exercise rehabilitation",
-    "keywords":       "cheltenham, sports, injury, physiotherapy, clinic, musculoskeletal, back, shoulder, knee, pain, massage, manipulation, acupuncture, exercise, rehabilitation"
+    "title": "AS Physiotherapy",
+    "description": "Cheltenham Sports Injury and Physiotherapy Clinic committed to providing expert management of Sports Injuries and a variety of musculoskeletal conditions, such as back, shoulder and knee pain. Treatments include massage, manipulation, acupuncture and exercise rehabilitation",
+    "keywords": "cheltenham, sports, injury, physiotherapy, clinic, musculoskeletal, back, shoulder, knee, pain, massage, manipulation, acupuncture, exercise, rehabilitation"
   },
   "images": {
-    "favicon":        "/assets/img/favicon.ico",
-    "social":         "/assets/images/social-share-img.jpg"
-},
+    "favicon": "/assets/img/favicon.ico",
+    "social": "/assets/images/social-share-img.jpg"
+  },
   "address": {
-    "street":         "Normandy House, ",
-    "street_ln_2":    "305-309 High Street, ",
-    "city":           "Cheltenham, ",
-    "county":         "Gloucestershire, ",
-    "postcode":       "GL50 3HW"
+    "street": "Normandy House, ",
+    "street_ln_2": "305-309 High Street, ",
+    "city": "Cheltenham, ",
+    "county": "Gloucestershire, ",
+    "postcode": "GL50 3HW"
   },
   "contact": {
-    "phoneInput":     "07918802361",
-    "phoneDisplay":   "07918 802 361",
-    "email":          "​contact@asphysiotherapy.co.uk"
+    "phoneInput": "07918802361",
+    "phoneDisplay": "07918 802 361",
+    "email": "​contact@asphysiotherapy.co.uk"
   }
 }

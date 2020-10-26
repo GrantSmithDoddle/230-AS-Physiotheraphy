@@ -1,14 +1,13 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d54c21e0-186e-41cb-9e51-f85b7961be78/deploy-status)](https://app.netlify.com/sites/romantic-wilson-6651c8/deploys)
+
 # 230 AS Physiotheraphy
 
-Static site built with [Eleventy](https://www.11ty.dev/) and [Laravel Mix](https://laravel-mix.com/docs/5.0/basic-example) or 229 Ledbury Chiropractic. :yum:
+Static site built with [Eleventy](https://www.11ty.dev/) and [Gulp 4](https://gulpjs.com/). :yum:
 
 ## Features
 
 - [Eleventy](https://www.11ty.dev/docs/)
-- [Laravel Mix](https://laravel-mix.com/docs/5.0/basic-example) (Webpack) to watch, concatenate and compile styles and scripts
-- HTML minifier
-- Clean CSS to inline styles
-- Terser to inline Javascript
+- [Gulp 4](https://gulpjs.com/) to watch, concatenate and compile styles and scripts
 
 ## Installation
 
@@ -16,7 +15,7 @@ Static site built with [Eleventy](https://www.11ty.dev/) and [Laravel Mix](https
 npm install
 ```
 
-To start the development server (and Mix), run the `npm run watch` command in terminal. Eleventy has hot reloading baked in and will automatically watch your template files for changes. Mix will watch any changes to the JS and SCSS files.
+To start the development server (and Gulp), run the `npm run watch` command in terminal. Eleventy has hot reloading baked in and will automatically watch your template files for changes. Gulp will watch any changes to the JS and SCSS files.
 
 ## Folder Structure
 

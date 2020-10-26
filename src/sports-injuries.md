@@ -6,6 +6,8 @@ image:
     src: '/assets/img/Joe-McClean.jpg'
     alt: 'AS Physiotherapy treats your Sports Injuries'
     title: 'AS Physiotherapy treats your Sports Injuries'
+testimonial: 'I am back training and back on track. If I get anymore issues I will not hesitate to book back in.'
+citation: 'Hayley McNeil'
 ---
 AS Physiotherapy provides a first class sports injury clinic based in both Cheltenham & Gloucester. The sports injury clinic based at Normandy House, 305-309 High Street, Cheltenham, Gloucestershire, GL50 3HW. We also run a clinic at Reebok CrossFit Gym, Gloucester on Thursday's PM. The gym has excellent facilities to treat and support you throughout your injury and rehabilitation all under one roof..
 

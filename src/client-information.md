@@ -6,6 +6,8 @@ image:
     title: 'AS Physiotherapy Client Information'
 title: 'Client Information'
 metaDesc: 'Cheltenham based Sports Injury and Physiotherapy Clinic with a fully equipped rehabilitation gym.'
+testimonial: 'Angela was extremely thorough and efficient at sorting out an on-going problem with my back and foot that I had put up with for a long time.'
+citation: 'Holly Wrigley'
 ---
 **All new clients with have an initial examination/assessment and diagnosis of your problem.  An individual management plan will be agreed and formulated together.**
 

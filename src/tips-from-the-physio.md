@@ -2,6 +2,8 @@
 layout: 'layouts/col-2.html'
 title: 'Tips from the Physio'
 metaDesc: 'How best to recover from long distance or marathon runs?'
+testimonial: 'I cannot thank Angela enough for her advice and treatment with all my injures over the years.'
+citation: 'Victoria Hall'
 ---
 <div class="column content flow__sm">
 

@@ -2,8 +2,8 @@
 layout: 'layouts/col-offset.html'
 image:
     src: '/assets/img/client.jpg'
-    alt: 'AS Physiotherapy Client Information'
-    title: 'AS Physiotherapy Client Information'
+    alt: 'asphysiotherapy Client Information'
+    title: 'asphysiotherapy Client Information'
 title: 'Client Information'
 metaDesc: 'Cheltenham based Sports Injury and Physiotherapy Clinic with a fully equipped rehabilitation gym.'
 testimonial: 'Angela was extremely thorough and efficient at sorting out an on-going problem with my back and foot that I had put up with for a long time.'

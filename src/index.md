@@ -4,14 +4,14 @@ title: 'Angela Sells'
 metaDesc: 'Cheltenham Sports Injury and Physiotherapy Clinic committed to providing expert management of Sports Injuries and a variety of musculoskeletal conditions, such as back, shoulder and knee pain. Treatments include massage, manipulation, acupuncture and exercise rehabilitation'
 image:
     src: '/assets/img/home-page-img.jpg'
-    alt: 'AS Physiotherapy'
-    title: 'AS Physiotherapy'
+    alt: 'asphysiotherapy'
+    title: 'asphysiotherapy'
 testimonial: 'She has also been able to find the cause of the problem even when others haven’t resolved it.'
 citation: 'Victoria Hall'
 ---
 <div class="column content flow__sm">
 
-Cheltenham and Gloucester based Angela Sells at AS Physiotherapy is committed to providing expert management of sports injuries and musculoskeletal conditions such as back, shoulder and knee pain. Offering a professional and high quality physiotherapy service with a wealth of experience having worked with:
+Cheltenham and Gloucester based Angela Sells at asphysiotherapy is committed to providing expert management of sports injuries and musculoskeletal conditions such as back, shoulder and knee pain. Offering a professional and high quality physiotherapy service with a wealth of experience having worked with:
 
 - England Women Rugby Squads (15s & 7s) including the IRB Rugby 7s World Cup in 2013​
 - Spire Perform Private Healthcare
@@ -23,7 +23,7 @@ Cheltenham and Gloucester based Angela Sells at AS Physiotherapy is committed to
 </div>
 <div class="column content flow__sm">
 
-**AS Physiotherapy provides 'hands on' treatments including:**
+**asphysiotherapy provides 'hands on' treatments including:**
 
 - Manual therapy​
 - Manipulation
@@ -34,6 +34,6 @@ Cheltenham and Gloucester based Angela Sells at AS Physiotherapy is committed to
 
 [See services page for a full list of treatments](/services "See all services offered").
 
-Additionally, at AS Physiotherapy a fully equipped rehabilitation exercise facility is provided on site in managing your injury all under one roof.
+Additionally, at asphysiotherapy a fully equipped rehabilitation exercise facility is provided on site in managing your injury all under one roof.
 
 </div>

@@ -2,16 +2,16 @@
 <html lang="en-GB">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  {% include "partials/base_layout/meta-info.html" -%}
-  <link rel="stylesheet" href="/assets/css/critical.min.css">
-  <script type='application/ld+json'>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/base_layout/meta-info.html" -%}
+    <link rel="stylesheet" href="/assets/css/critical.min.css">
+    <script type='application/ld+json'>
       {
         "@context": "http://www.schema.org",
         "@type": "ProfessionalService",
-        "name": "AS Physiotherapy,
+        "name": "asphysiotherapy,
         "url": "https://asphysiotherapy.co.uk",
         "logo": "https://asphysiotherapy.co.uk/assets/svg/Ledbury-Chiropractic-Clinic-Logo.svg",
         "image": "https://asphysiotherapy.co.uk/assets/img/social-share-img.jpg",
@@ -37,23 +37,23 @@
         }
       }
     </script>
-  {% if env.environment === "development" -%}
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-  {% else -%}
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
-  {% endif -%}
+    {% if env.environment === "development" -%}
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    {% else -%}
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
+    {% endif -%}
 </head>
 
 <body class="site-wrap">
-  {% include "partials/base_layout/site-head.html" -%}
-  <main tabindex="-1" id="main-content" class="flow__xl">
-    {% block content -%} {% endblock -%}
-  </main>
-  <hr>
-  {% if testimonial -%}
-  {% include "partials/_footer-testimonial.html" -%}
-  {% endif -%}
-  {% include "partials/base_layout/footer.html" -%}
+    {% include "partials/base_layout/site-head.html" -%}
+    <main tabindex="-1" id="main-content" class="flow__xl">
+        {% block content -%} {% endblock -%}
+    </main>
+    <hr>
+    {% if testimonial -%}
+    {% include "partials/_footer-testimonial.html" -%}
+    {% endif -%}
+    {% include "partials/base_layout/footer.html" -%}
 </body>
 
 </html>

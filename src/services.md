@@ -7,7 +7,7 @@ citation: 'Nolli Waterman (England Womens Rugby)'
 ---
 <div class="column content flow__sm">
 
-Having worked as a physiotherapist for over 13 years, AS Physiotherapy provides extensive experience in examination, diagnosis and management of all sports injuries and musculoskeletal pain.
+Having worked as a physiotherapist for over 13 years, asphysiotherapy provides extensive experience in examination, diagnosis and management of all sports injuries and musculoskeletal pain.
 
 **Physiotherapy treatments available:**
 

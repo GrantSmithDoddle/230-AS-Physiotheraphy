@@ -8,6 +8,9 @@ body {
 
   @include fluid-font(3vw, 1em, 1.125em, 17px);
   text-rendering: optimizeSpeed;
+  &.noScroll {
+    overflow: hidden;
+  }
 }
 
 /* A elements that don't have a class get default styles */
@@ -41,26 +44,4 @@ h4 {
 ::selection {
   background: $secondary-glare;
   color: $black;
-}
-
-// Scrollbar styles
-::-webkit-scrollbar {
-  height: 1rem;
-}
-
-::-webkit-scrollbar-track {
-  border: 1px solid $text;
-  border-radius: 0.25rem;
-  background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 0.25rem;
-  background-color: $text;
-}
-
-.noscroll {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
 }

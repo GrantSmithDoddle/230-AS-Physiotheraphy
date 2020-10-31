@@ -11,7 +11,9 @@ citation: 'Victoria Hall'
 ---
 <div class="column content flow__sm">
 
-Cheltenham and Gloucester based Angela Sells at asphysiotherapy is committed to providing expert management of sports injuries and musculoskeletal conditions such as back, shoulder and knee pain. Offering a professional and high quality physiotherapy service with a wealth of experience having worked with:
+Providing expert management of sports injuries and musculoskeletal conditions from head to toe and everything in between.
+
+Offering a professional and high quality physiotherapy service with a wealth of experience having worked in a variety of settings including:
 
 - England Women Rugby Squads (15s & 7s) including the IRB Rugby 7s World Cup in 2013​
 - Spire Perform Private Healthcare
@@ -34,6 +36,5 @@ Cheltenham and Gloucester based Angela Sells at asphysiotherapy is committed to 
 
 [See services page for a full list of treatments](/services "See all services offered").
 
-Additionally, at asphysiotherapy a fully equipped rehabilitation exercise facility is provided on site in managing your injury all under one roof.
-
+You will be in safe hands from start to finish so contact us today.
 </div>

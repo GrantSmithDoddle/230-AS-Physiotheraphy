@@ -18,7 +18,7 @@ Angela Sells: MSc Advanced Musculoskeletal and Manipulative Physiotherapy, BSc (
 
 ​Angela, graduated from Birmingham University in 2010, in Advanced Musculoskeletal and Manipulative Physiotherapy, and in 2001 from the University of East Anglia with a BSc in Physiotherapy.
 
-With a warm and friendly manner Angela combines a wealth of manual therapy skills, acupuncture and soft tissue techniques to comprehensively treat sports and musculoskeletal injuries.  Initially working in the NHS and as a sports Physio since 2003, her positions included:
+With a warm and friendly manner Angela combines a wealth of manual therapy skills, acupuncture and soft tissue techniques to comprehensively treat sports and musculoskeletal injuries.  Initially working in the NHS and as a Sports Physio since 2003, her positions included:
 ​
 - Head of Physiotherapy Services at Hartpury College (treating multi-sports)
 - Lead ​Physiotherapist to England Women Rugby 7s Squad, including the 2013 IRB 7s World Cup

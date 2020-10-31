@@ -7,7 +7,7 @@ citation: 'Victoria Hall'
 ---
 <div class="column content flow__sm">
 
-​Ahead of the 37th running of the Virgin Money London Marathon this weekend (Sunday 23rd April 2017), Angela Sells from AS Physiotherapy, who has worked as physiotherapist to England Women’s Rugby 7’s teams, Gloucester and Hartpury RFC brings you her 10 top tips on:
+Training for a marathon or running event, Angela Sells from asphysiotherapy, who has worked as physiotherapist to England Women’s Rugby 7’s teams, Gloucester and Hartpury RFC brings you her 10 top tips on:
 
 How best to recover from long distance or marathon runs?
 
@@ -26,7 +26,7 @@ Look to hydrate gradually within 10-15 minutes of the run, an electrolyte soluti
 Eat a small meal or snack, aim to eat this within 25-30 minutes after a run.  Try to eat a higher ratio of carbohydrate to protein 4/3:1.
 
 3. Stretch<br/>
-All major muscle groups and any areas of tightness or soreness.  Try to keep moving and stretch within 25-30 minutes for 10-15 minutes if you can. Stretches should be held for 20-30 seconds.
+Stretch within 25-30 minutes or as soon as possible for 5-10 minutes at least,  if you can.
 
 <picture class="image outer-5by3">
     <img class="lazyload blur-up inner-5by3 contain" data-src="/assets/img/stretch.jpg" title="Stretch"
@@ -49,10 +49,8 @@ At least 2 hours after a run or the next day try to get a massage to help the le
 8. Take a bath and stretch further afterwards.<br/>
 
 9. Sleep<br/>
-Get a good nights sleet and rest, try to aim for at least 8 hours.
+Get a good nights sleep and rest, try to aim for at least 8 hours.
 
 10. Training<br/>
-Recover with cross training, off feet such as a bike or swimming session with help.  A gentle short recovery run when you feel up to it.
-
-### If you're running this weekend... Good Luck!
+Recover with cross training, off feet such as a bike or swimming session will help.  A gentle short recovery run when you feel up to it.
 </div>

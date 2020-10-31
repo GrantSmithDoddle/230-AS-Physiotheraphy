@@ -27,9 +27,7 @@ Cash, Cheque (payable to Angela Sells), or BACS (bank details on request).
 
 **Treatment:**
 
-This may consist of various techniques which will be explained and discussed with you, as will
-​expectations and time frames for your recovery. The main aim is to get you back to full fitness
-​as quickly as possible.
+This may consist of various techniques which will be explained and discussed with you, as will expectations and time frames for your recovery. The main aim is to get you back to full fitness ​as quickly as possible.
 
 ### FAQs
 **What should you wear?**

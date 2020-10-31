@@ -7,7 +7,7 @@ citation: 'Nolli Waterman (England Womens Rugby)'
 ---
 <div class="column content flow__sm">
 
-Having worked as a physiotherapist for over 13 years, asphysiotherapy provides extensive experience in examination, diagnosis and management of all sports injuries and musculoskeletal pain.
+Having worked as a physiotherapist since 2001, asphysiotherapy provides extensive experience in examination, diagnosis and management of all sports injuries and musculoskeletal pain.
 
 **Physiotherapy treatments available:**
 
@@ -30,6 +30,5 @@ Having worked as a physiotherapist for over 13 years, asphysiotherapy provides e
 - Acupuncture/dry needling
 - Sports massage
 - Sports specific screening​
-- Home visits (on request)
 
 </div>

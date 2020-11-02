@@ -19,9 +19,11 @@ module.exports = eleventyConfig => {
     eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 
     // Include our static assets
-    eleventyConfig.addPassthroughCopy({'src/_includes/resources/img': 'assets/img'});
-    eleventyConfig.addPassthroughCopy({'src/_includes/resources/svg': 'assets/svg'});
-    eleventyConfig.addPassthroughCopy({'src/_includes/resources/fonts': 'fonts'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/assets/js': 'assets/js'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/assets/css': 'assets/css'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/assets/img': 'assets/img'});
+    eleventyConfig.addPassthroughCopy({'src/_assets/svg': 'assets/svg'});
+    eleventyConfig.addPassthroughCopy({'src/_assets/fonts': 'fonts'});
     eleventyConfig.addPassthroughCopy('src/robots.txt');
 
     return {

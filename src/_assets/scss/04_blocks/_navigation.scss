@@ -5,7 +5,7 @@ header {
   border-top: 2px solid $secondary;
 
 
-  .navbar {
+  #navbar {
     position: relative;
     display: grid;
     align-items: center;
@@ -132,10 +132,11 @@ header {
       }
     }
 
-    .show {
+    .isOpen {
       right: 0;
       display: block;
       opacity: 1;
+      transition: 0.4s;
     }
   }
 

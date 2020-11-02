@@ -8,7 +8,7 @@ const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 
 function scripts() {
-  return src( gulp_jsInput )
+  return src( source + js + 'main.js' )
     // Stop the process if an error is thrown.
     .pipe( plumber() )
     // Transpile the JS
@@ -18,9 +18,9 @@ function scripts() {
     // Change the filename
     .pipe( rename({ extname: '.min.js' }) )
     // Spit out the code
-    .pipe( dest( gulp_jsOutput ) )
+    .pipe( dest( output + js ) )
 }
 
-module.exports = scripts;
+module.exports.jsCompile = scripts;
 
 // Thanks to https://nshki.com/es6-in-gulp-projects/ for their tutorial.

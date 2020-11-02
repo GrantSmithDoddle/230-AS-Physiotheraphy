@@ -1,18 +1,16 @@
 const {parallel, series, watch} = require('gulp');
 
 // Proxy server
-const proxy = 'http://website.local/';
+const proxy = 'http://asphysiotherapy.local/';
 
-// Set Global Locations
-// JS Module
-global.gulp_jsInput = './src/_includes/resources/js/*.js';
-global.gulp_jsOutput = './dist/assets/js';
-// SCSS Module
-global.gulp_scssInput = './src/_includes/resources/scss/*.scss';
-global.gulp_scssOutput = './dist/assets/css';
-// Images Module
-global.gulp_imgInput = './src/_includes/resources/img/**/*';
-global.gulp_imgOutput = './dist/assets/img';
+// Default paths
+global.source = './src/_assets/';
+global.output = './src/_includes/assets/';
+
+global.scss = '/scss/';
+global.css = '/css/';
+global.js = '/js/';
+global.img= '/img/';
 
 // Pull in each task
 const styles = require('./gulp-tasks/scss.js');
@@ -21,17 +19,21 @@ const images = require('./gulp-tasks/images.js');
 
 // Watch Task
 function watcher() {
-  watch( gulp_scssInput, styles );
-  watch( gulp_jsInput, scripts );
-  watch( gulp_imgInput, images );
+  watch( source + scss + '/**/*.scss', parallel(styles) );
+  watch( source + js + '/**/*.js', parallel(scripts) );
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parallel
 exports.default = series(
-  parallel(styles, scripts, images), watcher
+  parallel(styles.scssCompile, scripts.jsCompile), watcher
 );
 
 // Production task, build project without watching after process
 exports.production = series(
-  parallel(styles, scripts, images)
+  parallel(styles.scssCompile, scripts.jsCompile, images.condense, images.webp)
+);
+
+// Image optimisation task
+exports.images = series(
+  parallel( images.condense, images.webp, styles.scssCompile ),
 );

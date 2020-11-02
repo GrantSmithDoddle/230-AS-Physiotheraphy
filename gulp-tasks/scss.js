@@ -8,16 +8,16 @@ const rename = require('gulp-rename');
 
 function styles() {
   var plugins = [
-    // autopreFixer(),
+    autopreFixer(),
     cssNano()
   ];
-  return src( gulp_scssInput )
+  return src( source + scss + '/**/*.scss' )
     .pipe( sourceMaps.init() )
     .pipe( sass() )
     .pipe( postCss(plugins) )
     .pipe( rename({ extname: '.min.css' }) )
     .pipe( sourceMaps.write('.') )
-    .pipe( dest( gulp_scssOutput ))
+    .pipe( dest( output + css ))
 }
 
-module.exports = styles;
+module.exports.scssCompile = styles;

@@ -12,13 +12,11 @@ h4 {
 
 h1,
 .h1 {
-
   @include fluid-font(3vw, 2.333rem, 2.799rem, 41.05px);
 }
 
 h2,
 .h2 {
-
   @include fluid-font(3vw, 1.944rem, 2.333rem, 34.21px);
 }
 

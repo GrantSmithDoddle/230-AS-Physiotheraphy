@@ -1,7 +1,6 @@
 <header class="banner" role="banner">
     <div class="wrapper">
-        <nav class="navbar" role="navigation" aria-label="main navigation" x-data="{ isOpen: false }"
-            @click.away="isOpen = false">
+        <nav id="navbar" role="navigation" aria-label="main navigation">
             <a class="brand" href="/" aria-label="Navigate back to Home Page" title="Navigate back to Home Page">
                 <img src="/assets/img/as-physiotherapy-logo.jpg" width="76" height="85"
                     alt="Committed to providing expert management of Sports Injuries"
@@ -16,8 +15,7 @@
                 <a class="button primary contact_btn"
                     href="https://www.my-physio.co.uk:8443/OnlineOptions/PageRenderer?si=TEG1201O1L3VB7G2VRMN96J4341IR54A1D433MB7"
                     target="blank" rel="noopener" title="Book an appointment">Book an appointment</a>
-                <button @click="isOpen = !isOpen" :class="{ 'isOpen': isOpen }"
-                    :aria-expanded="isOpen ? 'true' : 'false'" type="button" role="button" class="hamburger"
+                <button type="button" role="button" class="hamburger"
                     aria-controls="menu-container" aria-haspopup="true" aria-label="toggle main menu visibility">
                     <span class="line"></span>
                     <span class="line"></span>
@@ -25,8 +23,7 @@
                 </button>
             </div>
 
-            <div class="menu-container" x-show.transition.opacity="isOpen" @keydown.escape.window="isOpen = false"
-                :class="{ 'show': isOpen, 'hidden': !isOpen }">
+            <div class="menu-container">
                 <ul class="nav">
                     <li>
                       <a class="nav_call"

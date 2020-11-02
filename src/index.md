@@ -6,8 +6,8 @@ image:
     src: '/assets/img/home-page-img.jpg'
     alt: 'asphysiotherapy'
     title: 'asphysiotherapy'
-testimonial: 'She has also been able to find the cause of the problem even when others haven’t resolved it.'
-citation: 'Victoria Hall'
+testimonial: 'Angela’s level of professionalism is of the highest standard and I would recommend her to anybody.'
+citation: 'Chris Fortey, Ex Gloucester and Worcester Warriors RFC and England A rugby player'
 ---
 <div class="column content flow__sm">
 

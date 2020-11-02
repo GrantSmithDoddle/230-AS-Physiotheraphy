@@ -44,7 +44,7 @@ header {
       }
     }
 
-    .header__buttons {
+    .header_buttons {
       display: flex;
       justify-content: flex-end;
 
@@ -58,7 +58,7 @@ header {
       }
     }
 
-    .menu-container {
+    .menu_container {
       position: fixed;
       top: 119px;
       bottom: 0;
@@ -69,7 +69,19 @@ header {
       width: 100%;
       background-color: $secondary-shade;
       opacity: 0;
-      transition: top .5s ease, right .75s ease .2s, opacity .2s ease;
+      animation-duration: 0.4s;
+      animation-fill-mode: both;
+
+      @keyframes fadeInRight {
+        0% {
+          opacity: 0;
+          transform: translateX(400px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
 
       @include respond-to('small'){
         width: 490px;
@@ -136,7 +148,7 @@ header {
       right: 0;
       display: block;
       opacity: 1;
-      transition: 0.4s;
+      animation-name: fadeInRight;
     }
   }
 

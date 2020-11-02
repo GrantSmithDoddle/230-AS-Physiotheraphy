@@ -1,17 +1,18 @@
 // Footer Date
 document.getElementById('year').innerHTML = new Date().getFullYear();
 
+// Menu
 document.addEventListener('DOMContentLoaded', () => {
-	let navBar = document.getElementById('navbar');
+	// let navBar = document.getElementById('navbar');
 	let hamBurger = document.querySelector('.hamburger');
-	let menuCont = document.querySelector('.menu-container');
-	let navItem = document.querySelector('.nav__item');
+	let menuCont = document.querySelector('.menu_container');
+	// let navItem = document.querySelector('.nav_item');
 
 	// On click
 	hamBurger.addEventListener('click', function() {
 
 		// Toggle class 'is-active'
-		navBar.classList.toggle('isOpen');
+		// navBar.classList.toggle('isOpen');
 		hamBurger.classList.toggle('isOpen');
     menuCont.classList.toggle('isOpen');
 

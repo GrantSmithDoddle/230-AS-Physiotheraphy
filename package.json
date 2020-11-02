@@ -4,6 +4,7 @@
   "description": "Static site built with Eleventy and Laravel Mix for 230 AS Physiotheraphy",
   "main": "index.js",
   "scripts": {
+    "reverse": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & npx gulp",
     "test": "concurrently \"gulp \" \"npx @11ty/eleventy --config=eleventy.config.js --serve\"",
     "watch": "concurrently \"npx gulp \" \"ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve\"",
     "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx gulp && npx @11ty/eleventy --config=eleventy.config.js --serve",

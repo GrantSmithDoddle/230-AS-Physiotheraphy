@@ -4,13 +4,13 @@ const {parallel, series, watch} = require('gulp');
 const proxy = 'http://asphysiotherapy.local/';
 
 // Default paths
-global.source = './src/_assets/';
-global.output = './src/_includes/assets/';
+global.source = './src/_assets';
+global.output = './src/_includes/assets';
 
-global.scss = '/scss/';
-global.css = '/css/';
-global.js = '/js/';
-global.img= '/img/';
+global.scss = '/scss';
+global.css = '/css';
+global.js = '/js';
+global.img= '/img';
 
 // Pull in each task
 const styles = require('./gulp-tasks/scss.js');
@@ -19,9 +19,9 @@ const images = require('./gulp-tasks/images.js');
 
 // Watch Task
 function watcher() {
-  watch( source + scss + '/**/*.scss', parallel(styles) );
-  watch( source + js + '/**/*.js', parallel(scripts) );
-};
+  watch( source + scss + '/**/*.scss', styles.scssCompile );
+  watch( source + js + '/**/*.js', scripts.jsCompile );
+}
 
 // The default (if someone just runs `gulp`) is to run each task in parallel
 exports.default = series(

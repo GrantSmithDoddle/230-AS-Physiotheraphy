@@ -9,7 +9,7 @@ image:
 testimonial: 'Ange’s range of professional and modern treatments helps to keep my body in the best condition ready to compete week on week.'
 citation: 'Joe McClean, Scotland Rugby League International Player'
 ---
-asphysiotherapy provides a first class sports injury clinic based in both Cheltenham & Gloucester. The Cheltenham sports injury clinic is based at Normandy House,  Normandy House, 305-309 High Street, Cheltenham, Gloucestershire, GL50 3HW. We also run a clinic in Gloucester based at the Reebok CrossFit Gym, GL2 2RN, on a Thursday afternoon/evening. Excellent facilities to treat and support you throughout your injury and rehabilitation all under one roof.
+asphysiotherapy provides a first class sports injury clinic based in both Cheltenham & Gloucester. The Cheltenham sports injury clinic is based at Normandy House, 305-309 High Street, Cheltenham, Gloucestershire, GL50 3HW. We also run a clinic in Gloucester based at the Reebok CrossFit Gym, GL2 2RN, on a Thursday afternoon/evening. Excellent facilities are provided to treat and support you throughout your injury and rehabilitation all under one roof.
 
 At asphysiotherapy sports injury clinic we can treat ankle sprains to neck pain and everything in between.  To ensure a rapid return to your sporting activity early assessment and treatment is essential.
 

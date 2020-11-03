@@ -11,7 +11,7 @@ module.exports = eleventyConfig => {
     // Generate Sitemap
     eleventyConfig.addPlugin(sitemap, {
       sitemap: {
-        hostname: "https://asphysiotherapy.co.uk",
+        hostname: "https://www.asphysiotherapy.co.uk",
       },
     });
 

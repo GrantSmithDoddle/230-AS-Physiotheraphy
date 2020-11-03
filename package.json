@@ -4,8 +4,7 @@
   "description": "Static site built with Eleventy and Laravel Mix for 230 AS Physiotheraphy",
   "main": "index.js",
   "scripts": {
-    "test": "concurrently \"gulp \" \"npx @11ty/eleventy --config=eleventy.config.js --serve\"",
-    "watch": "concurrently \"npx gulp \" \"ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve\"",
+    "watch": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & npx gulp",
     "debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx gulp && npx @11ty/eleventy --config=eleventy.config.js --serve",
     "optimise": "npx gulp images",
     "production": "NODE_ENV=production npx gulp production && ELEVENTY_ENV=production npx @11ty/eleventy --config=eleventy.config.js"
@@ -21,7 +20,6 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^10.0.1",
-    "concurrently": "^5.3.0",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

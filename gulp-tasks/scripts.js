@@ -8,7 +8,7 @@ const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 
 function scripts() {
-  return src( source + js + 'main.js' )
+  return src( source + js + '/main.js' )
     // Stop the process if an error is thrown.
     .pipe( plumber() )
     // Transpile the JS

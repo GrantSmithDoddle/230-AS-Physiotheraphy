@@ -27,5 +27,3 @@ With a warm and friendly manner Angela combines a wealth of manual therapy skill
 - Gloucester Rugby Academy Physiotherapist
 - Spire Perform Private Healthcare
 - Lead physiotherapist to [Morea Performing Arts School](http://www.moreaperformingarts.com "Morea Performing Arts School")
-
-Currently working with Gloucestershire University Talented Athlete Scholarship Scheme (TASS), providing support to talented, up and coming athletes across a variety of sports in partnership with Sport England.

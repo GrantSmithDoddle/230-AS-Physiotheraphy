@@ -1,8 +1,5 @@
-{% extends "layouts/base.html" -%}
-
-{% set pageHeaderTitle = title -%}
-
-{% block content -%}
+{% extends "layouts/base.html" -%} {% set pageHeaderTitle = title -%} {% block
+content -%}
 <article aria-label="Contact">
   <div class="wrapper flow">
     <div class="columns">
@@ -12,29 +9,32 @@
     </div>
     <div class="columns col-2">
       <div class="column content flow__sm">
-        <p>If you have questions before booking an appointment, please use the details below to either call us directly
-          or send an email. Appointments can be booked online using the online booking url.</p>
+        <p>
+          If you have questions before booking an appointment, please use the
+          details below to either call us directly or send an email.
+          Appointments can be booked online using the online booking url.
+        </p>
         {% include "partials/_contact-details.html" -%}
       </div>
       <div class="column content flow__sm">
         <p><strong>Our addresses:</strong></p>
-        <p>Room 17, Lower Basement, <br>
-          Normandy House, <br>
-          305-309 High Street,<br>
-          Cheltenham,<br>
-          Gloucestershire, GL50 3HW</p>
+        <p>
+          41 Milton Rd, <br />
+          Cheltenham, GL51 7ET
+        </p>
         <p>(Monday-Friday, except Thursday pm)</p>
-        <p>Glevum Fitness, <br>
-          Waterwells Business Park, <br>
-          Unit 12, Quadrant Centre, <br>
-          GL2 2RN</p>
+        <p>
+          Glevum Fitness, <br />
+          Waterwells Business Park, <br />
+          Unit 12, Quadrant Centre, <br />
+          GL2 2RN
+        </p>
         <p>(Thursday pm only)</p>
+        <p>Parking is available at both clinics.</p>
       </div>
     </div>
     <div class="columns">
-      <div class="column">
-        {% include "partials/_map.html" -%}
-      </div>
+      <div class="column">{% include "partials/_map.html" -%}</div>
     </div>
   </div>
 </article>

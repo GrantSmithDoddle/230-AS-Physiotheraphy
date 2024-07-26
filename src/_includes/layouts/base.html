@@ -1,13 +1,16 @@
 {% set assetHash = global.random() %}
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/base_layout/meta-info.html" -%}
-    <link rel="stylesheet" href="/assets/css/critical.min.css?{{ assetHash }}">
-    <script type='application/ld+json'>
+    <link
+      rel="stylesheet"
+      href="/assets/css/critical.min.css?{{ assetHash }}"
+    />
+    <script type="application/ld+json">
       {
         "@context": "http://www.schema.org",
         "@type": "ProfessionalService",
@@ -18,16 +21,16 @@
         "description": "Ledbury Chiropractic Clinic treating every patient as the individual that they are.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Room 17 Lower Basement, Normandy House, 305-309 High Street, ",
+          "streetAddress": "41 Milton Rd",
           "addressLocality": "Cheltenham",
           "addressRegion": "Gloucestershire",
-          "postalCode": "GL50 3HW",
+          "postalCode": "GL51 7ET",
           "addressCountry": "United Kingdom"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "52.040615",
-          "longitude": "-2.426684"
+          "latitude": "51.897570",
+          "longitude": "-2.109700"
         },
         "openingHours": "Mo, Tu, We, Th, Fr 09:30-19:00",
         "contactPoint": {
@@ -37,16 +40,14 @@
         }
       }
     </script>
-</head>
-<body class="site-wrap">
+  </head>
+  <body class="site-wrap">
     {% include "partials/base_layout/site-head.html" -%}
     <main tabindex="-1" id="main-content" class="flow__xl">
-        {% block content -%} {% endblock -%}
+      {% block content -%} {% endblock -%}
     </main>
-    <hr>
-    {% if testimonial -%}
-    {% include "partials/_footer-testimonial.html" -%}
-    {% endif -%}
-    {% include "partials/base_layout/footer.html" -%}
-</body>
+    <hr />
+    {% if testimonial -%} {% include "partials/_footer-testimonial.html" -%} {%
+    endif -%} {% include "partials/base_layout/footer.html" -%}
+  </body>
 </html>

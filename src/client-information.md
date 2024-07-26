@@ -1,15 +1,16 @@
 ---
-layout: 'layouts/col-offset.html'
+layout: "layouts/col-offset.html"
 image:
-    src: '/assets/img/client.jpg'
-    alt: 'asphysiotherapy Client Information'
-    title: 'asphysiotherapy Client Information'
-title: 'Client Information'
-metaDesc: 'Cheltenham based Sports Injury and Physiotherapy Clinic with a fully equipped rehabilitation gym.'
-testimonial: 'Angela was extremely thorough and efficient at sorting out an on-going problem with my back and foot that I had put up with for a long time.'
-citation: 'Holly Wrigley'
+    src: "/assets/img/client.jpg"
+    alt: "asphysiotherapy Client Information"
+    title: "asphysiotherapy Client Information"
+title: "Client Information"
+metaDesc: "Cheltenham based Sports Injury and Physiotherapy Clinic with a fully equipped rehabilitation gym."
+testimonial: "Angela was extremely thorough and efficient at sorting out an on-going problem with my back and foot that I had put up with for a long time."
+citation: "Holly Wrigley"
 ---
-**All new clients with have an initial examination/assessment and diagnosis of your problem.  An individual management plan will be agreed and formulated together.**
+
+**All new clients with have an initial examination/assessment and diagnosis of your problem. An individual management plan will be agreed and formulated together.**
 
 **Appointment times/fees:**
 
@@ -23,13 +24,14 @@ Sports Massage:
 
 **Methods of payment:**
 
-Cash, Cheque (payable to Angela Sells), or BACS (bank details on request).
+Card, cash, cheque or BACS.
 
 **Treatment:**
 
 This may consist of various techniques which will be explained and discussed with you, as will expectations and time frames for your recovery. The main aim is to get you back to full fitness ​as quickly as possible.
 
 ### FAQs
+
 **What should you wear?**
 
 It is important to visualise the area in question. Loose fitting clothing is advisable and for lower limb problems shorts and bare feet is best. For neck, shoulder and arm problems vest tops are advisable, whilst lower back problems shorts or loose fitting trousers (elastic waists) are best.

@@ -11,9 +11,9 @@
       "url": "/services/"
     },
     {
-      "navText": "Tips from the Physio",
-      "title": "Tips from the Physio",
-      "url": "/tips-from-the-physio/"
+      "navText": "Client Information",
+      "title": "Client Information",
+      "url": "/client-information/"
     },
     {
       "navText": "Sports Injuries",
@@ -36,9 +36,9 @@
       "url": "/contact/"
     },
     {
-      "navText": "Client Information",
-      "title": "Client Information",
-      "url": "/client-information/"
+      "navText": "Tips from the Physio",
+      "title": "Tips from the Physio",
+      "url": "/tips-from-the-physio/"
     }
   ]
 }
